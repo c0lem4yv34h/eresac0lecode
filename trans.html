@@ -1,36 +1,49 @@
-<!doctype html >
+
+<!doctype html>
+
 <html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>transition page</title>
+    <style>
+     #one {
+        width: 100px;
+        height: 30px;
+        background: pink;
+        border: 5px solid rgb(0, 217, 255);
+        transition: background .5s, transform 1s;
+     }
+     #one:hover {
+        background: rgb(105, 207, 35);
+        transform: rotate(70deg) scale(30);
+     }
+     #two {
+        width: 60px;
+        height: 130px;
+        background: rgb(208, 99, 117);
+        border: 5px solid rgb(221, 0, 255);
+        transition: border-radius .5s;
+     }
+     #two:hover {
+        border-radius: 60%;
+     }
+     #three {
+        margin-top: 70px;
+        transition: text-shadow .5s, transform .5s;
+     }
+     #three:hover {
+        text-shadow: 3px 5px 10px #abd514;
+        transform: translateY(-10px);
+     }
+    </style>
+</head>
+
+<body>
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<h1 id="three">this is text</h1>
+</body>
+
 </html>
-<head {
-    .title: rawr 
-.container {
-    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
-    .container {
-        align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
-      }
-style {
-    #one: hover {
-        div;
-Width: 100px;
-Height: 100px;
-Background:color="pink";
-Border: 2px solid;
-Transform: rotate (20deg) scale (2)
-.container {
-    align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
-  }
-  Style> 
-  #one: hover
-    .style {
-    width: 500px;
-    height: 50px;
-    Background: teal;
-    Color="pink";
-
-
-
-Transition: transform 5s, background-color: blue 1 sec;
-    }
-    
-style>
-</head> 
